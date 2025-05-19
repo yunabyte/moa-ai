@@ -47,7 +47,6 @@ jobs:
 
       - name: SSH to server and deploy Docker container
         env:
-          IMAGE_NAME: ${{ vars.IMAGE_NAME }}
           GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
           BE_SERVER_IP: ${{ secrets.BE_SERVER_IP }}
           BE_SERVER_PORT: ${{ secrets.BE_SERVER_PORT }}
