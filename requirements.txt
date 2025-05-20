@@ -160,7 +160,7 @@ networkx==3.2.1
     # via
     #   -r requirements.in
     #   torch
-numpy==2.0.2
+numpy==1.26.4
     # via
     #   -r requirements.in
     #   chroma-hnswlib
